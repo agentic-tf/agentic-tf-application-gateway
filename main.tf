@@ -1,5 +1,3 @@
-}
-
 resource "azurerm_application_gateway" "this" {
   name                = var.name
   location            = var.location
